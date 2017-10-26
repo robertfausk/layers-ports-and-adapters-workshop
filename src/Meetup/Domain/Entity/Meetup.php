@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Meetup\Entity;
+namespace Meetup\Domain\Entity;
 
 final class Meetup
 {
@@ -62,6 +62,7 @@ final class Meetup
 
     /**
      * @param int $id
+     *
      * @internal Only to be used by MeetupRepository
      */
     public function setId(int $id): void

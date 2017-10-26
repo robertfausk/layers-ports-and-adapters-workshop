@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Meetup\Command;
+namespace Meetup\ApplicationCommand;
 
-use Meetup\Entity\Description;
-use Meetup\Entity\Meetup;
-use Meetup\Entity\MeetupRepository;
-use Meetup\Entity\Name;
-use Meetup\Entity\ScheduledDate;
+use Meetup\Domain\Entity\Description;
+use Meetup\Domain\Entity\Meetup;
+use Meetup\Domain\Entity\MeetupRepository;
+use Meetup\Domain\Entity\Name;
+use Meetup\Domain\Entity\ScheduledDate;
 use Webmozart\Console\Api\Args\Args;
 use Webmozart\Console\Api\IO\IO;
 

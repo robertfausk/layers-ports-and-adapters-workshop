@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Meetup\Entity;
+namespace Meetup\Domain\Entity;
 
 final class ScheduledDate
 {
-    private const DATE_TIME_FORMAT = \DateTime::ATOM;
+    const DATE_TIME_FORMAT = \DateTime::ATOM;
 
     /**
      * @var string
